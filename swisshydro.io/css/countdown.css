@@ -1,0 +1,107 @@
+
+#clockdiv2{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+	color: black;
+}
+
+
+#clockdiv2 > div{
+	padding: 10px;
+	border-radius: 3px;
+
+	background: #fff;
+	display: inline-block;
+}
+
+#clockdiv2 div > span{
+	padding: 15px;
+	border-radius: 3px;
+		font-size: 50px;
+		color: black;
+	display: inline-block;
+}
+
+#clockdiv-wrapper{
+    /*margin-top: -50px;
+    margin-bottom: 50px;*/
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #d0301b;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #871f12;
+	display: inline-block;
+}
+
+#clockdiv-wrapper{
+    /*margin-top: -50px;
+    margin-bottom: 50px;*/
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+
+
+/* Schräger Balken */
+.schraeg_balken_black{
+	/*height: 0px;
+	width: 100%;
+	position: relative;
+	border-left: 100vw solid transparent;
+	border-bottom: 30px solid black;
+	margin-top: -30px;*/
+}
+
+.schraeg_balken_red{
+	/*height: 0px;
+	width: 100%;
+	position: relative;
+	border-left: 100vw solid transparent;
+	border-bottom: 30px solid rgba(208, 48, 27, 0.95);
+	margin-top: -30px;*/
+
+}
+
+.schraeg_balken_gray{
+	/*height: 0px;
+	width: 100%;
+	position: relative;
+	border-left: 100vw solid transparent;
+	border-bottom: 30px  solid rgba(255, 255, 255, 0.92);
+	margin-top: -30px;*/
+
+}
+
+body{
+	min-width: 400px !important;
+}

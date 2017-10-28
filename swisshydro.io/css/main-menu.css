@@ -1,0 +1,80 @@
+#main-menu-wrapper{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+z-index: 999;
+}
+#main-menu{
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  z-index: 999;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+}
+#main-menu-logo{
+  width: auto;
+  height: 70px;
+
+}
+#main-menu-list li{
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+#main-menu-list{
+  margin-top: -54px;
+  right: 0px;
+
+
+}
+
+.main-menu-item{
+  color: black;
+}
+.main-menu-item:hover{
+  color: red;
+}
+
+.main-menu-active{
+  border-bottom: 2px solid red;
+}
+@media screen and (min-width: 800px) {
+  #main-menu-list li{
+    font-size: 18px;
+    float: right;
+    margin-right: 10px;
+  }
+  #crowdfund-menu-container{
+    display: none;
+  }
+
+  #crowdfund-menu{
+    display: none;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  #main-menu-list li{
+    font-size: 13px;
+
+  }
+}
+@media screen and (max-width: 800px){
+  #main-menu-menu{
+    display: none;
+  }
+  #main-menu-wrapper{
+    display: none;
+  }
+}
+
+.menu_img_logo{
+	width: auto;
+	height: 40px;
+	margin-top: 10px;
+  margin-left: 20px;
+}

@@ -1,0 +1,125 @@
+.token_table{
+  width: 100%;
+  background-color: #eee;
+  color: black;
+}
+
+.token_table_data1{
+  text-align: right;
+  padding: 20px;
+}
+.token_table_data2{
+  text-align: left;
+  padding: 20px;
+}
+.token_table_row{
+  border: 1px solid #ddd;
+}
+#token_table_wrapper{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Whitepaper Style */
+.whitepapers-wrapper{
+  width: auto;
+  height: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.whitepaper-wrapper{
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  background-color: gray;
+  border: 2px solid white;
+  box-sizing: border-box;
+  float: left;
+}
+
+.whitepaper-icon{
+  height: 75px;
+  width: 100%;
+  padding-top:5px;
+  border-bottom:1px solid white;
+}
+
+.whitepaper-text{
+  width: 100%;
+  height: 120px;
+  padding-top:5px;
+}
+
+.whitepaper-i-icon{
+  color: black;
+  margin-top:13px;
+}
+
+.whitepaper-i-icon-wrapper{
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ccc;
+  border-radius: 100px;
+}
+
+.whitepaper-small-text{
+  font-size: 16px;
+}
+/* Klassen für die Breite von Objekten */
+@media (max-width: 768px) {
+  .col-xs-12{
+    width: 100%;
+  }
+  .whitepapers-wrapper{
+    width: 320px;
+  }
+}
+@media (min-width: 768px) {
+  .whitepapers-wrapper{
+    width: 640px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .col-s-12{
+    width: 100%;
+  }
+  .col-s-6{
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .col-md-4{
+    width: 33.33%;
+  }
+  .col-md-3{
+    width: 25%;
+  }
+  .col-md-6{
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-4{
+    width: 33.33%;
+  }
+  .col-lg-3{
+    width: 25%;
+  }
+  .col-lg-6{
+    width: 50%;
+  }
+}
+
+/* Tokensale Timer */
+#tokensale-timer-wrapper{
+  background-color: blue;
+  padding: 20px;
+}
